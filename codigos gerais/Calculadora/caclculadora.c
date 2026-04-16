@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-int soma(int a, int b);
-int sub(int a, int b);
-int div(int a, int b);
-int mult(int a, int b);
+#include "operadores.h"
 
 int main(){
 
@@ -32,7 +28,7 @@ int main(){
             printf("\n resultado: %d", sub(soma1,soma2));
             break;
         case 3:
-            printf("\n resultado: %d", div(soma1,soma2));
+            printf("\n resultado: %d", divi(soma1,soma2));
             break;
         case 4:
             printf("\n resultado: %d", mult(soma1,soma2));
@@ -56,19 +52,3 @@ int main(){
 
     return 0;
 }
-
-    int soma(int a,int b){
-        return a + b;
-    }
-
-    int sub(int a,int b){
-        return a - b;
-    }
-
-    int div(int a, int b){
-        return a/b;
-    }
-
-    int mult(int a, int b){
-        return a * b;
-    }

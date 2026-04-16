@@ -15,5 +15,14 @@ int main() {
 
     // %d chamada de valor após a virgula
 
+    //long numeros grandes unsigned muito baixos, quando muito longos ou baixos, usa-se %ld invés de %d
+    //numeros float, escreve-se %f, se eu quiser formatar numeros, %2f
+    //em notação cientifica %e
+    // caractere %c
+    // %s string
+    // %d inteiro
+
+    //scanf leitura do teclado
+    // numeros não são nativos, string são, por isso que precisa especificar com & numeros
     printf("\n Hello World!\n");
 }
