@@ -21,8 +21,14 @@ int main() {
     // caractere %c
     // %s string
     // %d inteiro
+    // %f float
+    // %lf double
+    // % operador é o resto da divisão(módulo) de inteiros
+    // ++ incremento e -- decremento, a + a + 1 == a ++ 1
 
     //scanf leitura do teclado
     // numeros não são nativos, string são, por isso que precisa especificar com & numeros
+
+    //& -> adress of, pra resgatar endereços de memoria
     printf("\n Hello World!\n");
 }
