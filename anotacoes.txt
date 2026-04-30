@@ -43,3 +43,15 @@ goto:
 
 ch= Getchar():
     -Lê do teclado, um caractere, 
+
+looping:
+    while:
+        - enquanto <condição> faça o comandos
+        - while(i<n){impar+=2; i++;}
+    for:
+        - for(i = 0; i<n; i++){<comandos>}
+
+strcmp()
+    - compara strings e retorna 0 se forem iguais
+    - strcmp(<var>, "<string>")
+
