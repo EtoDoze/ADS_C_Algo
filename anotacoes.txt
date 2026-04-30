@@ -1,0 +1,45 @@
+Sim = 1
+Não = 0
+
+Expressão relacional: 
+    <expressão> == <expressão>
+    <expressão> > <expressão>
+    <expressão> < <expressão>
+    <expressão> != <expressão>
+
+Expressão Lógica:
+    <expressão> and <expressão> (||)
+    <expressão> or <expressão> (&&)
+    <expressão> not <expressão> (!)
+
+condicional:
+    If()
+    Else()
+    Else if()
+
+casos:
+    Switch(variavel){
+        case <valor da variavel>:
+            <comandos>;
+            break;
+        case <valor da variavel2>:
+            <comandos>;
+            break;
+        case <valor da variavel3>:
+            <comandos>;
+            break;
+        default:
+            <comandos>;
+            break;
+    }
+
+    - Break retira tudo, se quiser um loop, bota o switch dentro dele
+    - Todo switch pode ter um default
+
+goto:
+    - saltar entre linhas
+    - loop1:
+        if(n == m){ goto loop1;}
+
+ch= Getchar():
+    -Lê do teclado, um caractere, 
